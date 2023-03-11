@@ -1,3 +1,4 @@
+// for dark mode
 const Btn = document.getElementById("Btn");
         const btn = document.getElementById("btn");
 const calc = document.getElementById("calc");
@@ -11,8 +12,8 @@ Btn.addEventListener("click", ()=>{
 })
 function toggleDarkMode() {
   const main = document.getElementById("body");
-  if(main.style.background != "black"){
-  main.style.background = "black";
+  if(main.style.background != "aqua"){
+  main.style.background = "aqua";
   btn.style.background = "black";
   calc.style.color = "white";
   btn.style.color = "white";
@@ -24,6 +25,7 @@ btn.style.color = "black";
 btn.style.background = "white";
 }
 }
+// for calculator
 let string = "";
 let buttons = document.querySelectorAll('.button');
 
