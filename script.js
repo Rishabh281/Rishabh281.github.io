@@ -12,8 +12,8 @@ Btn.addEventListener("click", ()=>{
 })
 function toggleDarkMode() {
   const main = document.getElementById("body");
-  if(main.style.background != "aqua"){
-  main.style.background = "aqua";
+  if(main.style.background != "black"){
+  main.style.background = "black";
   btn.style.background = "black";
   calc.style.color = "white";
   btn.style.color = "white";
